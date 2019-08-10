@@ -13,4 +13,4 @@ def sum_of_multiples(limit):
             sum+= x
     
     print(new_multiples,'=',sum)
-sum_of_multiples(20)
+sum_of_multiples(int(input('Enter a number: ')))
